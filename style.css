@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-image: url(lion.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    display: flex;
+    padding: 15px 5%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.logo{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar a{
+    color:rgb(243, 223, 223);
+    font-size: 18px;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px;
+
+}
+.navbar a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(238, 190, 127);
+   
+}
+ .About{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding:0 10%;
+ }
+ .About-content{
+    padding: 20px ;
+   max-width:500px;
+ }
+ .About-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(243, 223, 223);
+ }
+ .About-content h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(243, 223, 223);
+ }
+  .About-content p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(238, 190, 127);   
+ }
+ .About-content .btn{
+margin-top: 20px;
+    width: 300px;
+    height: 50px;
+ } 
+ .About-content .btn a{
+    color:black;
+    font-size: 18px;
+    margin-left: 150px;
+    text-decoration: none; 
+    border: 3px solid black;  
+    border-radius:10px 10px;
+    background-color: rgb(238, 190, 127);
+    padding: 2px;
+ }
+ .icon-home{
+    background-color: transparent;
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    
+ }
+ .icon-home a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 60%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 190, 127);
+    
+ }
+
+.contact{
+    background-color: brown;
+    border: 5px solid black;
+    border-radius: 10px 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 200px;
+    margin-right: 150px;
+    left: 20px;
+
+}
+.contact-us{
+    padding: 20px;
+    max-width: 500;
+}
+.contact-us h3{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    
+}
+.contact-us p{
+    font-weight: 600;
+    font-size: 15px;
+    color:rgb(238, 190, 127);
+}
+        .contact-us .info-box{
+         
+         height: 200px;
+         margin-bottom: 50px;
+         margin-top: 50px;
+        }
+        .contact-us .info-box a{
+            color: black;
+            font-size: 20px;
+            font-weight: 800;
+            text-decoration: none;
+
+        }
+
+        .socialmedia{
+            
+            bottom: 5px;
+            position: absolute;
+            padding-left: 20px;
+            width: 400px; 
+            padding-top: 40px;
+            
+        }
+        .socialmedia p{
+            font-size:25px;
+            font-weight: 700;
+            color: whitesmoke;
+            margin-top: 50px;
+            ;
+        }
+        .sociamedia-acct a{
+           color: black;
+            border :3px solid black;
+            border-radius: 60%;
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+            background-color:rgb(238, 190, 127) ;
+            text-decoration: none;
+            display: inline-flex;
+            
+            
+        }
+        .contact-us2{
+         margin-right:100px;  
+         background-color:transparent;
+         width:700px;
+         height: 550px;
+         padding-left: 50px;
+         padding-top: 50px;
+
+        }
+        .contact-us2 h1{
+            color: whitesmoke;
+            font-size:25px ;
+            font-weight: 700;
+            margin-left: 25px;
+        }
+           .info-box2{
+            background-color:transparent;
+            padding: 20px;
+        }
+        .name{
+            background-color: rgb(238, 190, 127);
+            border:3px solid black;
+            border-radius:10px 10px ;
+            width: 300px;
+            height: 30px;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight :300px; 
+            text-decoration: none;
+        }
+        .email{
+            background-color: rgb(238, 190, 127);
+            border:3px solid black;
+            border-radius:10px 10px ;
+            width: 300px;
+            height: 30px;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight :300px;
+        }
+        .PhoneNo{
+            background-color: rgb(238, 190, 127);
+            border:3px solid black;
+            border-radius:10px 10px ;
+            width: 300px;
+            height: 30px;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight :300px;
+        }
+        .message{
+            background-color: rgb(238, 190, 127);
+            border:3px solid black;
+            border-radius:10px 10px ;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight :300px;
+        }
+        .send{
+            background-color: rgb(238, 190, 127);
+            border: 3px solid black;
+            border-radius: 10px 10px;
+            color:black ;
+            width: 75px;
+            height: 30px;
+            font-weight: 800;
+
+        }
